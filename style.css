@@ -1,0 +1,22 @@
+/* Optional: Makes the sample page fill the window. */
+/* html, */
+body {
+	font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+	/* height: 1000px;
+	width: 900px; */
+	margin: 0;
+	padding: 0;
+	align-content: center;
+}
+
+.container {
+	height: 100%;
+	width: 900px;
+	align-content: center;
+	align-items: center;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
