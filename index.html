@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>SnowMap</title>
+		<title>attackMap</title>
 
 		<link rel="stylesheet" type="text/css" href="style.css" />
 
 		<script
-			src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMazIpQ_xpcSRZ6Qdq7FyfWBFWd2iQDLQ&callback=attackMap&libraries=&v=weekly"
 			defer
 		></script>
 	</head>
 	<body>
 		<div class="container">
-			<h1>Bear Attacks</h1>
+			<h1 style="text-align: center">Bear Scares</h1>
 			<div id="map"></div>
 			
-						<div>
-							<label for="csv_data">Choose csv file</label>
-							<input type="file" id="csv_data" accept=".csv" />
-						</div>
+			<!-- <div> -->
+				<label for="csv_data">Choose csv file</label>
+				<input type="file" id="csv_data" accept=".csv" />
+			<!-- </div> -->
 			
-						<div id="output"></div>
-				<canvas id="bearPopulation" width="100px" height="100px"></canvas>
-		<!-- </div>
-		<div> -->
-			<canvas id="wildCaptive" width="50px" height="50"></canvas>
-
-			<script src="snowMap.js"></script>
+			<div id="output"></div>
+			<div display: block style="position: relative">
+			<canvas id="bearPopulation" ></canvas>
+				<!-- </div>
+			<div display: block style="position: relative"> -->
+			<canvas id="wildCaptive" ></canvas>
+			</div>	
+			<script src="./src/attackMap.js"></script>
+			<!-- <script type='module' src="./src/getFile.js"></script> -->
+			<!-- <script type='module' src=./src/chart.js></script> -->
 			<script type:module src="./dist/getFileBundle.js"></script>
 			<script type:module src=./dist/chartBundle.js></script>
 		</div>

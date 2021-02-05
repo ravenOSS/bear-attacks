@@ -1,22 +1,33 @@
 /* Optional: Makes the sample page fill the window. */
-/* html, */
-body {
+html,
+.body {
 	font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
-	/* height: 1000px;
-	width: 900px; */
-	margin: 0;
+	height: 100vh;
+	width: 90vw;
+	margin: 20;
 	padding: 0;
-	align-content: center;
+	/* align-items: center;
+	align-content: center; */
 }
 
 .container {
 	height: 100%;
-	width: 900px;
+	width: 100%;
 	align-content: center;
 	align-items: center;
 }
 
 #map {
-	height: 500px;
+	height: 50vh;
+	width: 75vw;
+}
+
+#bearPopulation {
+	height: 100%;
+	width: 100%;
+}
+
+#wildCaptive {
+	height: 100%;
 	width: 100%;
 }

@@ -19,8 +19,6 @@ if (window.FileList && window.File) {
 			const fileData = reader.result
 
 			processFile(fileData)
-
-			console.log(`Type: ${typeof fileData}`)
 		}
 	})
 }
