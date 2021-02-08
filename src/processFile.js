@@ -1,7 +1,6 @@
 import parse from 'csv-parse/lib/sync'
-import bearDataChart from './chart.js'
-// import bearDataChart from '../dist/chartBundle.js'
-// import bearData from './chart.js'
+
+// import { bearDataChart, bearStatusChart } from './chart.js'
 
 // create array of records from csv data captured from file input
 const processFile = (dataFile) => {
@@ -49,4 +48,4 @@ const processFile = (dataFile) => {
 }
 
 export default processFile
-export attackRecords
+// export attackRecords
